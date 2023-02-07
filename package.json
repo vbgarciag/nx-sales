@@ -2,7 +2,9 @@
   "name": "sales",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build:products-api": "nx build products-api"
+  },
   "private": true,
   "devDependencies": {
     "@nrwl/esbuild": "15.6.3",
