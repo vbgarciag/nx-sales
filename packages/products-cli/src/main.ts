@@ -7,6 +7,9 @@ async function main() {
   const id = getProductId();
   if (id != null) {
     const product = await productsDataClient.getProductById(id);
+    if (!product) {
+      throw new Error(`Product with id ${id} not found`);
+    }
     console.log(JSON.stringify(product, null, 2));
   } else {
     const products = await productsDataClient.getProducts();
