@@ -12,7 +12,8 @@
         "format": ["cjs"],
         "main": "packages/products-api/src/main.ts",
         "tsConfig": "packages/products-api/tsconfig.app.json",
-        "assets": ["packages/products-api/src/assets"]
+        "assets": ["packages/products-api/src/assets"],
+        "generatePackageJson": true
       }
     },
     "serve": {
