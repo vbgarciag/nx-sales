@@ -1,0 +1,3 @@
+#example of netlify nx express settings
+[functions]
+  directory = "dist/packages/products-api"
